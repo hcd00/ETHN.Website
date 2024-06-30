@@ -1,0 +1,36 @@
+header {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* CSS styles for container div */
+/* CSS styles for full-width container div */
+/* CSS styles for centered container div */
+.container {
+    width: 70%; /* Width of the viewport */
+    height: 80vh; /* Full height of the viewport */
+    background-color: #f0f0f0; /* Background color of the container */
+    padding: 20px; /* Add padding inside the container */
+    box-sizing: border-box; /* Include padding and border in total width and height */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 auto; /* Auto margin horizontally to center */
+}
+
+

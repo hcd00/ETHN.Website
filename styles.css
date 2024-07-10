@@ -1,36 +1,65 @@
-header {
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-body{
-    background-color: aqua;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-}
-nav a {
-    cursor: pointer;
-    margin-left: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .nav h1 {
+    margin: 0;
+  }
+  
+  .nav .links nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .nav .links nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro, .feature, .additional-info {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .feature-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-content img {
+    max-width: 200px;
     margin-right: 20px;
-    cursor: pointer;
-}
-
-/* CSS styles for container div */
-/* CSS styles for full-width container div */
-/* CSS styles for centered container div */
-.container {
-    width: 70%; /* Width of the viewport */
-    height: 80vh; /* Full height of the viewport */
-    background-color: #f0f0f0; /* Background color of the container */
-    padding: 20px; /* Add padding inside the container */
-    box-sizing: border-box; /* Include padding and border in total width and height */
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin: 0 auto; /* Auto margin horizontally to center */
-}
-
-
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
